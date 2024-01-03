@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity implements OnItemsClick{
     public ActivityMainBinding binding;
     private ExpensesAdapter expensesAdapter;
     Intent intent;
-
     private long income = 0, expense = 0;
 
     @Override
