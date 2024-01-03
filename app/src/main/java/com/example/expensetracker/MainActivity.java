@@ -150,26 +150,6 @@ public class MainActivity extends AppCompatActivity implements OnItemsClick{
         binding.pieChart.setCenterTextSize(20);
         binding.pieChart.setData(data);
         binding.pieChart.invalidate();
-
-
-//        List<PieEntry> pieEntryList = new ArrayList<>();
-//        List<Integer> colorsList = new ArrayList<>();
-//        if (income != 0) {
-//            pieEntryList.add(new PieEntry(income, "Income"));
-//            colorsList.add(getResources().getColor(R.color.teal_700));
-//        }
-//        if (expense != 0) {
-//            pieEntryList.add(new PieEntry(expense, "Expense"));
-//            colorsList.add(getResources().getColor(R.color.red));
-//        }
-//
-//        PieDataSet pieDataSet = new PieDataSet(pieEntryList, String.valueOf(income-expense));
-//        pieDataSet.setColors(colorsList);
-//        pieDataSet.setValueTextColor(getResources().getColor(R.color.white));
-//        PieData pieData = new PieData(pieDataSet);
-//
-//        binding.pieChart.setData(pieData);
-//        binding.pieChart.invalidate();
     }
 
     @Override
